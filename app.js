@@ -44,5 +44,5 @@ console.log('The user answered ' + fifthResponse);
 if (fifthResponse === fifthAnswer || fifthResponse === fifthAnswer[0]) {
   alert('You are correct ' + userName + ', I do love snowboarding.');
 } else {
-  alert('You are wrong, ' + userName + ', I do love snowboarding');
+  alert('You are wrong ' + userName + ', I do love snowboarding');
 }
