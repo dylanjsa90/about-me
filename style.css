@@ -1,3 +1,15 @@
-* {
-  color: red;
+h1 {
+  color: green;
+}
+p, li {
+  font-size: 20px;
+}
+span {
+  background-color: orange;
+  color: yellow;
+  font-weight: bold;
+}
+
+#name {
+  text-align: center;
 }
