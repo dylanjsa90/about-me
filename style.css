@@ -1,5 +1,13 @@
+body {
+  font-family: serif;
+  background-color: grey;
+
+}
+
 h1 {
   color: green;
+  background-color: black;
+  text-indent: 5em;
 }
 p, li {
   font-size: 20px;
@@ -11,5 +19,10 @@ span {
 }
 
 #name {
-  text-align: center;
+  text-indent: 12em;
+}
+p.cinfo {
+  font-weight: bold;
+  color: blue;
+  background-color: black;
 }
