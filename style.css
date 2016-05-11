@@ -39,8 +39,8 @@ p.cinfo {
   display: inline;
 }
 
-ul {
-  margin-right: 300px;
+ul ol {
+  margin-left: 300px;
 }
 h2 {
   background-color: green;
