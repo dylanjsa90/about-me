@@ -1,3 +1,7 @@
+* {
+  text-align: center;
+}
+
 body {
   font-family: serif;
   background-color: grey;
@@ -5,14 +9,17 @@ body {
 }
 
 #core {
-  margin: 10em;
+  margin: 250px;
+  border: 5px solid black;
+  border-radius: 20px;
+  background-color: purple;
+  margin-top: 100px;
 
 }
 
 h1 {
   color: green;
   background-color: black;
-  text-indent: 5em;
 }
 p, li {
   font-size: 20px;
@@ -20,14 +27,21 @@ p, li {
 span {
   background-color: orange;
   color: yellow;
-  font-weight: bold;
 }
 
 #name {
-  text-indent: 12em;
+  font-style: italic;
 }
 p.cinfo {
   font-weight: bold;
   color: blue;
   background-color: black;
+  display: inline;
+}
+
+ul {
+  margin-right: 300px;
+}
+h2 {
+  background-color: green;
 }
