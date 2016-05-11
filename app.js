@@ -1,12 +1,13 @@
+var correctAnswers = 0;
 var userName = prompt('Hello! Thanks for visiting, what is your name?');
-alert('Welcome ' + userName + '! I\' going to ask you some questions please respond with yes or no.');
+alert('Welcome ' + userName + '! I\' going to ask you some questions please respond with yes/y or no/n.');
 console.log('The user is named ' + userName);
 
 var firstResponse = prompt('Do I live with any animals?').toLowerCase();
 var firstAnswer = 'yes';
 console.log(firstResponse);
 if (firstAnswer === firstResponse || firstResponse === firstAnswer[0]) {
-  alert('You are correct! ' + userName + ' I live with one cat named Renly.');
+  alert('You are correct! ' + userName + ' I live with a cat named Renly.');
 } else {
   alert('Bummer, you are wrong ' + userName + ' I live with a cat named Renly.');
 }
@@ -46,3 +47,22 @@ if (fifthResponse === fifthAnswer || fifthResponse === fifthAnswer[0]) {
 } else {
   alert('You are wrong ' + userName + ', I do love snowboarding');
 }
+//
+// var sixthResponse = parseInt(prompt('How old am I?'));
+// var sixthAnswer = 7;
+// for (var i = 4; i > 0; i--) {
+//   if (sixthResponse === sixthAnswer) {
+//     alert('Great guess!');
+//     i = 0;
+//   } else if (sixthResponse > sixthAnswer) {
+//     alert('Wrong!, you guessed too high. You have ' + i + ' guesses remaining.');
+//   } else if (sixthResponse < sixthAnswer) {
+//     alert('Wrong!, you guessed too low. You have ' + i + 'guesses remaining,');
+//   }
+//
+// }
+
+// var rightGuess = false;
+// while (rightGuess) {
+//
+// }

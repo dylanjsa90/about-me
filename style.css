@@ -4,6 +4,11 @@ body {
 
 }
 
+#core {
+  margin: 10em;
+
+}
+
 h1 {
   color: green;
   background-color: black;
