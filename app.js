@@ -21,36 +21,6 @@ for (var i = 0; i < questions.length; i++) {
   }
 }
 
-// if (response[0] === answer[0] || response[0] === answer[0][0]) {
-//   alert('You are correct! ' + userName + ' I live with a cat named Renly.');
-// } else {
-//   alert('You are wrong ' + userName + ' I live with a cat named Renly.');
-// }
-//
-// if (secondResponse === secondAnswer || secondResponse === secondAnswer[0]) {
-//   alert('You are correct ' + userName + ' I live in Seattle, Washington.');
-// } else {
-//   alert('Wrong! You should have read the bio better for clues ' + userName + '.');
-// }
-//
-// if (thirdResponse === thirdAnswer || thirdResponse === thirdAnswer[0]) {
-//   alert('Good guess, ' + userName + ' my favorite dessert is panna cotta.');
-// } else {
-//   alert('Nice try but ice cream is not my favorite dessert ' + userName + ', better luck next time.');
-// }
-//
-// if (fourthResponse === fourthAnswer || fourthResponse === fourthAnswer[0]) {
-//   alert('You are correct ' + userName + ', I have been sky diving and bungee jumping but not scuba diving.');
-// } else {
-//   alert('Wrong! I have never been scuba diving.');
-// }
-//
-// if (fifthResponse === fifthAnswer || fifthResponse === fifthAnswer[0]) {
-//   alert('You are correct ' + userName + ', I do love snowboarding.');
-// } else {
-//   alert('You are wrong ' + userName + ', I do love snowboarding');
-// }
-
 var sixthAnswer = 26;
 for (var i = 3; i >= 0; i--) {
   var sixthResponse = parseInt(prompt('How old am I?'));
