@@ -49,7 +49,7 @@ var endLoop = false;
 var seventhAnswers = ['ohio', ' california', ' illinois', ' montana'];
 var guessesRemaining = 6;
 
-while (endLoop === false || guessesRemaining === 0) {
+while (endLoop === false || guessesRemaining !== 0) {
   var seventhResponse = prompt('What is another state I have lived besides Washington?').toLowerCase();
   if (!isNaN(seventhResponse)) {
     alert('Numeric values are not valid responses');
